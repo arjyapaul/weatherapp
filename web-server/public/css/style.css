@@ -1,0 +1,84 @@
+body{
+    margin: 5px;
+    background-color: #00cdac;
+}
+header{
+    border-bottom: 1px solid black;
+    background-image: linear-gradient(#de6262,#ffb88c);
+    padding-top: 10px;
+}
+h1{
+    color: #080d00;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-size: 40px;
+}
+nav a{
+    padding: 120px;
+    text-decoration: none;
+    font-size: 130%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    color:#d1d2eb;
+}
+nav{
+    text-align: center;
+    border-bottom: 1px solid #c1e3e2;
+    padding-bottom: 20px;
+    padding-top: 5px;
+    background-color: #0b0f66;
+}
+form,#message1,#message2{
+    position: relative;
+    top: 20px;
+}
+#search{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 20px;
+    color: brown;
+}
+input{
+    width: 60%;
+    height: 80%;
+    position: relative;
+    left: 20px;
+    border-radius: 3px;
+    background-color: gold;
+}
+button{
+    position: relative;
+    left:35px;
+    width: 10%;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: hotpink;
+}
+#message1,#message2{
+    position: relative;
+    left:20px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 30px;
+    color: ghostwhite;
+}
+footer{
+    position: relative;
+    top: 70px;
+    text-align: center;
+    background-color:#0d4a80;
+}
+i{
+    padding:4px;
+    color: white;
+}
+#create{
+    color: white;
+}
+#copyright{
+    color: white;
+}
